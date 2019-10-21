@@ -2,11 +2,10 @@
   color-scheme: light dark;
 }
 
-body {
+body, html {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  height: 100vh;
+  height: 100%;
   margin: 0;
-  width: 100vw;
 }
 
 .align-center {
