@@ -25,3 +25,12 @@ h1 {
 .text-center {
   text-align: center;
 }
+
+@supports not (color-scheme: light dark) {
+  @media (prefers-color-scheme: dark) {
+    html {
+      background-color: #1e1e1e;
+      color: white;
+    }
+  }
+}
