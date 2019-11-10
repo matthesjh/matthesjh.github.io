@@ -1,5 +1,4 @@
 :root {
-  --border-color: black;
   color-scheme: light dark;
 }
 
@@ -24,7 +23,7 @@ html {
 }
 
 .avatar {
-  border: 3px solid var(--border-color);
+  border: 3px solid currentColor;
   border-radius: 50%;
   height: 10rem;
   overflow: hidden;
@@ -67,11 +66,5 @@ html {
       background: hsl(0, 0%, 12%);
       color: white;
     }
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --border-color: white;
   }
 }
