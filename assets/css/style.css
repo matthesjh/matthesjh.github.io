@@ -46,6 +46,8 @@ html {
 .octicon {
   fill: currentColor;
   margin-right: .5rem;
+  margin-top: 3px;
+  vertical-align: text-bottom;
 }
 
 .text-center {
