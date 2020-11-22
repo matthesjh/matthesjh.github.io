@@ -25,6 +25,7 @@ html {
   border-radius: 50%;
   height: 10rem;
   overflow: hidden;
+  width: 10rem;
 }
 
 .description {
